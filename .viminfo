@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
-|2,0,1759654549,,"wq"
 :q
-|2,0,1759654500,,"q"
+|2,0,1759658047,,"q"
+:wq
+|2,0,1759657348,,"wq"
 :Wq
 |2,0,1759650229,,"Wq"
 :q!
@@ -63,40 +63,150 @@
 |3,0,36,0,1,0,1759650186," "
 
 # File marks:
-'0  58  10  ~/blockchain-demo/app.py
-|4,48,58,10,1759654549,"~/blockchain-demo/app.py"
-'1  24  0  ~/blockchain-demo/bigquery_stream.py
-|4,49,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
-'2  1  0  ~/blockchain-demo/bigquery_stream.py
-|4,50,1,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
-'3  9  0  ~/blockchain-demo/bigquery_stream.py
-|4,51,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
-'4  24  0  ~/bigquery_stream.py
-|4,52,24,0,1759654454,"~/bigquery_stream.py"
-'5  51  0  ~/blockchain-demo/kms_utils.py
-|4,53,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
-'6  7  10  ~/blockchain-demo/app.py
-|4,54,7,10,1759653160,"~/blockchain-demo/app.py"
-'7  7  10  ~/blockchain-demo/app.py
-|4,55,7,10,1759653160,"~/blockchain-demo/app.py"
-'8  124  0  ~/blockchain-demo/app.py
-|4,56,124,0,1759652795,"~/blockchain-demo/app.py"
-'9  122  0  ~/blockchain-demo/app.py
-|4,57,122,0,1759652795,"~/blockchain-demo/app.py"
+'0  106  0  ~/blockchain-demo/app.py
+|4,48,106,0,1759658047,"~/blockchain-demo/app.py"
+'1  159  0  ~/blockchain-demo/app.py
+|4,49,159,0,1759657348,"~/blockchain-demo/app.py"
+'2  159  0  ~/blockchain-demo/app.py
+|4,50,159,0,1759657348,"~/blockchain-demo/app.py"
+'3  216  10  ~/blockchain-demo/app.py
+|4,51,216,10,1759657238,"~/blockchain-demo/app.py"
+'4  58  10  ~/blockchain-demo/app.py
+|4,52,58,10,1759657238,"~/blockchain-demo/app.py"
+'5  216  10  ~/blockchain-demo/app.py
+|4,53,216,10,1759657238,"~/blockchain-demo/app.py"
+'6  58  10  ~/blockchain-demo/app.py
+|4,54,58,10,1759657238,"~/blockchain-demo/app.py"
+'7  216  10  ~/blockchain-demo/app.py
+|4,55,216,10,1759654549,"~/blockchain-demo/app.py"
+'8  58  10  ~/blockchain-demo/app.py
+|4,56,58,10,1759654549,"~/blockchain-demo/app.py"
+'9  216  10  ~/blockchain-demo/app.py
+|4,57,216,10,1759654549,"~/blockchain-demo/app.py"
 
 # Jumplist (newest first):
+-'  106  0  ~/blockchain-demo/app.py
+|4,39,106,0,1759658047,"~/blockchain-demo/app.py"
+-'  159  0  ~/blockchain-demo/app.py
+|4,39,159,0,1759658034,"~/blockchain-demo/app.py"
+-'  159  0  ~/blockchain-demo/app.py
+|4,39,159,0,1759657348,"~/blockchain-demo/app.py"
+-'  1  0  ~/blockchain-demo/app.py
+|4,39,1,0,1759657342,"~/blockchain-demo/app.py"
+-'  1  0  ~/blockchain-demo/app.py
+|4,39,1,0,1759657342,"~/blockchain-demo/app.py"
+-'  216  10  ~/blockchain-demo/app.py
+|4,39,216,10,1759657238,"~/blockchain-demo/app.py"
+-'  58  10  ~/blockchain-demo/app.py
+|4,39,58,10,1759657238,"~/blockchain-demo/app.py"
+-'  216  10  ~/blockchain-demo/app.py
+|4,39,216,10,1759657238,"~/blockchain-demo/app.py"
+-'  58  10  ~/blockchain-demo/app.py
+|4,39,58,10,1759657238,"~/blockchain-demo/app.py"
 -'  58  10  ~/blockchain-demo/app.py
 |4,39,58,10,1759654549,"~/blockchain-demo/app.py"
+-'  165  10  ~/blockchain-demo/app.py
+|4,39,165,10,1759654530,"~/blockchain-demo/app.py"
+-'  7  10  ~/blockchain-demo/app.py
+|4,39,7,10,1759654530,"~/blockchain-demo/app.py"
+-'  165  10  ~/blockchain-demo/app.py
+|4,39,165,10,1759654530,"~/blockchain-demo/app.py"
+-'  7  10  ~/blockchain-demo/app.py
+|4,39,7,10,1759654530,"~/blockchain-demo/app.py"
 -'  7  10  ~/blockchain-demo/app.py
 |4,39,7,10,1759654530,"~/blockchain-demo/app.py"
 -'  24  0  ~/blockchain-demo/bigquery_stream.py
 |4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
 -'  24  0  ~/blockchain-demo/bigquery_stream.py
 |4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
+-'  24  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,24,0,1759654528,"~/blockchain-demo/bigquery_stream.py"
 -'  1  0  ~/blockchain-demo/bigquery_stream.py
 |4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
 -'  1  0  ~/blockchain-demo/bigquery_stream.py
 |4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  1  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,1,0,1759654508,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
+-'  9  0  ~/blockchain-demo/bigquery_stream.py
+|4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
 -'  9  0  ~/blockchain-demo/bigquery_stream.py
 |4,39,9,0,1759654500,"~/blockchain-demo/bigquery_stream.py"
 -'  9  0  ~/blockchain-demo/bigquery_stream.py
@@ -117,202 +227,93 @@
 |4,39,24,0,1759654454,"~/bigquery_stream.py"
 -'  24  0  ~/bigquery_stream.py
 |4,39,24,0,1759654454,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  1  0  ~/bigquery_stream.py
-|4,39,1,0,1759654440,"~/bigquery_stream.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  51  0  ~/blockchain-demo/kms_utils.py
-|4,39,51,0,1759653278,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  1  0  ~/blockchain-demo/kms_utils.py
-|4,39,1,0,1759653273,"~/blockchain-demo/kms_utils.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  7  10  ~/blockchain-demo/app.py
-|4,39,7,10,1759653160,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  124  0  ~/blockchain-demo/app.py
-|4,39,124,0,1759652898,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
--'  122  0  ~/blockchain-demo/app.py
-|4,39,122,0,1759652795,"~/blockchain-demo/app.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
+-'  24  0  ~/bigquery_stream.py
+|4,39,24,0,1759654454,"~/bigquery_stream.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/blockchain-demo/app.py
-	*	1759654548	0
-	"	58	10
-	^	7	11
-	.	8	0
+	*	1759658046	0
+	"	106	0
+	^	159	0
+	.	158	38
 	+	1	38
 	+	1	9
 	+	1	41
-	+	294	38
+	+	452	38
 	+	1	0
-	+	240	0
+	+	398	0
 	+	1	33
 	+	1	305
 	+	1	41
 	+	1	38
 	+	1	33
 	+	1	41
-	+	194	0
-	+	144	38
-	+	133	6
-	+	54	56
-	+	54	7
-	+	101	8
-	+	124	4
-	+	8	0
+	+	352	0
+	+	302	38
+	+	291	6
+	+	212	56
+	+	212	7
+	+	259	8
+	+	282	4
+	+	166	0
+	+	158	38
 
 > ~/blockchain-demo/bigquery_stream.py
 	*	1759654527	0

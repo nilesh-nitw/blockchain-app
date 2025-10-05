@@ -447,3 +447,46 @@ cd ..
 git init
 git add .
 git status
+git add .
+git status
+git commit -m "commit"
+git branch -M main
+git remote add origin https://github.com/nilesh-nitw/blockchain-app.git
+git push origin -u main
+git push origin -u main -f
+ls
+cd blockchain-demo/
+ls
+pwd
+ls
+git status
+vi app.py 
+cat app.py 
+rm app.py 
+vi app.py
+docker build -t gcr.io/blockchain-demo-474018/blockchain-app .
+docker push gcr.io/blockchain-demo-474018/blockchain-app
+gcloud auth configure-docker
+projects/blockchain-demo-474018/locations/us/repositories/gcr.io
+docker tag blockchain-app gcr.io/blockchain-demo-474018/blockchain-app:latest
+docker build -t blockchain-app .
+docker images
+docker push gcr.io/blockchain-demo-474018/blockchain-app:latest
+gcloud run deploy blockchain-app   --image gcr.io/blockchain-demo-474018/blockchain-app:latest   --platform managed   --region asia-south1   --allow-unauthenticated
+vi app.py 
+gcloud run services describe blockchain-app   --region asia-south1   --format="value(spec.template.spec.serviceAccountName)"
+gcloud projects add-iam-policy-binding blockchain-demo-474018     --member="serviceAccount:251617923945-compute@developer.gserviceaccount.com"     --role="roles/bigquery.dataEditor"
+gcloud projects add-iam-policy-binding blockchain-demo-474018     --member="serviceAccount:251617923945-compute@developer.gserviceaccount.com"     --role="roles/bigquery.jobUser"
+docker push gcr.io/blockchain-demo-474018/blockchain-app:latest
+git status
+git add .
+git commit -m "chnages"
+git push origin
+ls
+cd blockchain-demo/
+ls
+cat app.py 
+cd ..
+pwd
+ls
+git status
