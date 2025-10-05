@@ -1,0 +1,37 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.20.0/bin/node /usr/local/nvm/versions/node/v22.20.0/bin/npm
+1 info using npm@11.6.1
+2 info using node@v22.20.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/nileshmaurya789/blockchain-demo/.npmrc
+5 silly config load:file:/home/nileshmaurya789/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.20.0/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/home/nileshmaurya789/.npm/_logs/2025-10-05T08_44_50_621Z-
+10 verbose logfile /home/nileshmaurya789/.npm/_logs/2025-10-05T08_44_50_621Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/home/nileshmaurya789/blockchain-demo/package.json'
+13 verbose stack     at async open (node:internal/fs/promises:641:25)
+13 verbose stack     at async readFile (node:internal/fs/promises:1245:14)
+13 verbose stack     at async read (/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:9:18)
+13 verbose stack     at async PackageJson.load (/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:131:31)
+13 verbose stack     at async PackageJson.normalize (/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:117:5)
+13 verbose stack     at async #run (/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/lib/commands/run.js:90:13)
+13 verbose stack     at async RunScript.exec (/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/lib/commands/run.js:44:7)
+13 verbose stack     at async Npm.exec (/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/lib/npm.js:208:9)
+13 verbose stack     at async module.exports (/usr/local/nvm/versions/node/v22.20.0/lib/node_modules/npm/lib/cli/entry.js:67:5)
+14 error code ENOENT
+15 error syscall open
+16 error path /home/nileshmaurya789/blockchain-demo/package.json
+17 error errno -2
+18 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/nileshmaurya789/blockchain-demo/package.json'
+19 error enoent This is related to npm not being able to find a file.
+19 error enoent
+20 verbose cwd /home/nileshmaurya789/blockchain-demo
+21 verbose os Linux 6.6.105+
+22 verbose node v22.20.0
+23 verbose npm  v11.6.1
+24 verbose exit -2
+25 verbose code -2
+26 error A complete log of this run can be found in: /home/nileshmaurya789/.npm/_logs/2025-10-05T08_44_50_621Z-debug-0.log

@@ -1,0 +1,12 @@
+2025-10-05 09:10:30.060 [info] 
+
+
+
+
+2025-10-05 09:10:30.100 [info] Extension host agent started.
+2025-10-05 09:10:30.102 [error] Error occurred in server
+2025-10-05 09:10:30.103 [error] Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at node:net:2205:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
